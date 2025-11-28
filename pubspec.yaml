@@ -1,30 +1,27 @@
-name: praktikummopro5
+name: project_praktikum_mopro_kel_5
 description: "A new Flutter project."
 publish_to: 'none' 
 
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.9.2
+  sdk: '>=3.9.2 <4.0.0' 
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  http: ^1.2.2          # Sudah benar
+  flutter_dotenv: ^5.1.0 # Sudah benar
+  sqflite: ^2.3.0       # HARUS di sini
+  path: ^1.8.3          # HARUS di sini
+  intl: ^0.18.1         # HARUS di sini
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  sqflite: ^2.3.0
-  path: ^1.8.3
-  intl: ^0.18.1  # untuk format tanggal
-  http: ^1.2.2
-  flutter_dotenv: ^5.1.0
-
   flutter_lints: ^5.0.0
 
 flutter:
-
   uses-material-design: true
-
