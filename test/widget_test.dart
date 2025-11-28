@@ -28,3 +28,5 @@ void main() {
     expect(find.text('1'), findsOneWidget);
   });
 }
+// Hapus kurung kurawal penutup yang tidak diperlukan di sini:
+// }
